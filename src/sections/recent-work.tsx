@@ -7,8 +7,8 @@ export const RecentWork = () => {
     return(
         <section className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
             <div className="flex mb-10 max-w-4xl">
-                 <h1 className="font-space text-[#221A16] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">Recent</h1>
-                 <h1 className="font-space text-[#B55B37] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">Works</h1>
+                 <h1 className="font-space text-[#221A16] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">Pro</h1>
+                 <h1 className="font-space text-[#B55B37] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">jects</h1>
             </div>
 
 
