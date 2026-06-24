@@ -5,7 +5,7 @@ import { WhatsappContact } from "../links/WhatsappContact";
 import { GmailContact } from "../links/GmailContact";
 export const ContactMe = () => {
     return(
-        <section className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
+        <section id="contact-me" className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
 
             <div className="flex mb-10 max-w-4xl">
                 <h1 className="font-space text-[#221A16] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Contact</h1>

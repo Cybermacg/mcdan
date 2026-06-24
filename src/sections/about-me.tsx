@@ -42,7 +42,7 @@ export const AboutMe = () => {
     ]
 
     return(
-        <section className="w-full h-screen flex flex-col items-center justify-center">
+        <section id="about" className="w-full h-screen flex flex-col items-center justify-center">
 
             {/* about me text */}
             <div className=" w-[80%] mx-auto  lg:max-w-384">

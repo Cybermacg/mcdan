@@ -5,7 +5,7 @@ import image2 from "../assets/project2.png";
 
 export const RecentWork = () => {
     return(
-        <section className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
+        <section id="experience" className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
             <div className="flex mb-10 max-w-4xl">
                  <h1 className="font-space text-[#221A16] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">Pro</h1>
                  <h1 className="font-space text-[#B55B37] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">jects</h1>
@@ -24,8 +24,8 @@ export const RecentWork = () => {
                             A clean, conversion-focused solar energy landing page built for modern homeowners and commercial clients. Built with React and styled to reflect the efficiency and clarity of renewable energy — featuring glassmorphic stat cards, smooth scroll animations, and a warm earthy palette that feels trustworthy and premium.
                         </p>
                         <div className="flex text-[#964322] flex-row gap-5">
-                            <FaCode />
-                            <FaExternalLinkAlt />
+                            <a href="https://github.com/cybermacg/sunora"><FaCode /></a>
+                           <a href="https://sunora-mcdan.vercel.app/"><FaExternalLinkAlt /></a>
                         </div>
                     </div>
 

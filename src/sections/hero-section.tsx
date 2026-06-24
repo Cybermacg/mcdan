@@ -1,7 +1,7 @@
 import image from '../assets/hero-image.png';
 export const HeroSection = () =>{
     return(
-        <section className="w-full h-screen flex items-center justify-center">
+        <section id='about' className="w-full h-screen flex items-center justify-center">
             <div className="flex h-screen items-center justify-center gap-30 flex-col w-[80%] lg:flex-row lg:max-w-384">
                 {/* hero section text area */}
                 <div className="w-[90%] md:w-[50%] flex items-center justify-center">
