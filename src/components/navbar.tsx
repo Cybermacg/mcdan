@@ -1,5 +1,4 @@
 import { IoCode } from "react-icons/io5";
-import { FaMoon } from "react-icons/fa";
 import '../index.css';
 export const Navbar = () =>{
 

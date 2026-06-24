@@ -1,6 +1,4 @@
 export const LinkedInContact = () => {
-
-    const userName = "Mcdan uko";
     const LinkedInUrl = `www.linkedin.com/in/mcdan-uko-581092248`;
     return(
         <p><a 

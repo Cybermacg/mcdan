@@ -3,12 +3,6 @@ import { FaLocationDot } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa";
 import { WhatsappContact } from "../links/WhatsappContact";
 import { GmailContact } from "../links/GmailContact";
-import { TwitterContact } from "../links/Twitter";
-import { FaLinkedin } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6"
-import { LinkedInContact } from "../links/LinkedIn";
-import { GithubRepo } from "../links/GithubRepo";
-import { FaGithubSquare } from "react-icons/fa";
 export const ContactMe = () => {
     return(
         <section className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
