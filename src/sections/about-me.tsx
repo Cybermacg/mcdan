@@ -1,7 +1,7 @@
 export const AboutMe = () => {
 
 
-    interface skills{
+    interface skills {
         id: number,
         text: string,
     }
@@ -9,7 +9,7 @@ export const AboutMe = () => {
     const skills: skills[] = [
         {
             id: 0,
-            text:"HTML",
+            text: "HTML",
         },
         {
             id: 1,
@@ -41,15 +41,15 @@ export const AboutMe = () => {
         },
     ]
 
-    return(
-        <section id="about" className="w-full h-screen flex flex-col items-center justify-center">
+    return (
+        <section id="about" className="w-full h-screen -mt-60 flex flex-col items-center justify-center">
 
             {/* about me text */}
             <div className=" w-[80%] mx-auto  lg:max-w-384">
                 {/* contains header text */}
                 <div className="flex  max-w-4xl mb-10 mx-auto justify-center flex-row gap-2 ">
                     <h1 className="font-space text-[#221A16] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">About</h1>
-                    <h1 className="font-space text-[#B55B37] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Me</h1>
+                    <h1 className="font-spacee text-[#635F40] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Me</h1>
                 </div>
 
                 {/* contains paragraph text */}
@@ -71,8 +71,8 @@ export const AboutMe = () => {
                     <h1>Technologies</h1>
                 </div>
                 <div className="flex gap-4 flex-wrap">
-                    {skills.map((skill) =>{
-                        return(
+                    {skills.map((skill) => {
+                        return (
                             <li key={skill.id} className="px-4 py-2 rounded-4xl list-none text-black border-[#E5E7EB] bg-[#F5E8DF]">
                                 {skill.text}
                             </li>

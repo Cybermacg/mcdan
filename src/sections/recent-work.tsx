@@ -8,7 +8,7 @@ export const RecentWork = () => {
         <section id="experience" className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
             <div className="flex mb-10 max-w-4xl">
                  <h1 className="font-space text-[#221A16] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">Pro</h1>
-                 <h1 className="font-space text-[#B55B37] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">jects</h1>
+                 <h1 className="font-space text-[#635F40] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">jects</h1>
             </div>
 
 
@@ -19,7 +19,7 @@ export const RecentWork = () => {
                     <div className="w-full lg:w-[50%] flex flex-col space-y-5">
                         <p className="text-[#8C7B6B]">FEATURED PROJECT</p>
                         <h1 className="text-[#221A16] font-extrabold">Sunora Landing page</h1>
-                        <p className="text-[#8C7B6B]">Under Dvelopment</p>
+                        <p className="text-[#8C7B6B]">Under Development</p>
                         <p className="text-[#55433C]">
                             A clean, conversion-focused solar energy landing page built for modern homeowners and commercial clients. Built with React and styled to reflect the efficiency and clarity of renewable energy — featuring glassmorphic stat cards, smooth scroll animations, and a warm earthy palette that feels trustworthy and premium.
                         </p>
@@ -50,7 +50,7 @@ export const RecentWork = () => {
                     <div className="w-full lg:w-[50%] flex flex-col space-y-5">
                         <p className="text-[#8C7B6B]">FEATURED PROJECT</p>
                         <h1 className="text-[#221A16] font-extrabold">Recipely</h1>
-                        <p className="text-[#8C7B6B]">Under Dvelopment</p>
+                        <p className="text-[#8C7B6B]">Under Development</p>
                         <p className="text-[#55433C]">
                           This platform uses curated collections to connect users with their next favorite dish, emphasizing simplicity and exploration. Built with React and styled with Tailwind CSS, the interface reflects the rustic-premium aesthetics all against a warm, light cream canvas that feels inviting and wholesome.
 
