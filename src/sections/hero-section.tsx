@@ -15,9 +15,9 @@ export const HeroSection = () => {
                     </div>
                 </div>
                 {/* hero section image area */}
-                <div className=" flex items-center justify-center md:w-[50%]">
+                <div className=" flex items-center w-[90%] justify-center md:w-[50%]">
                     <motion.div
-                        whileInView={{ opacity: 1, scale: 1.1 }} initial={{ opacity: 0, scale: 0 }} transition={{ duration: 2, type: "spring", stiffness: 100 }}
+                        whileInView={{ opacity: 1, scale: 1.02 }} initial={{ opacity: 0, scale: 0 }} transition={{ duration: 3, type: "spring", stiffness: 200 }}
                         className="w-100 h-100
                     lg:w-120 lg:h-120 shadow-lg rounded-full bg-[#F0DFD9] flex items-center justify-center">
                         <div className="w-98 h-98
