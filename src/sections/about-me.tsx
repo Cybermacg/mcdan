@@ -1,3 +1,4 @@
+import { motion } from "motion/react";
 export const AboutMe = () => {
 
 
@@ -42,25 +43,26 @@ export const AboutMe = () => {
     ]
 
     return (
-        <section id="about" className="w-full h-screen -mt-60 flex flex-col items-center justify-center">
+        <section id="about" className="w-full h-screen 
+         flex flex-col items-center -mt-20 justify-center">
 
             {/* about me text */}
             <div className=" w-[80%] mx-auto  lg:max-w-384">
                 {/* contains header text */}
-                <div className="flex  max-w-4xl mb-10 mx-auto justify-center flex-row gap-2 ">
+                <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1.1}} transition={{duration: 1.5, type: "spring", stiffness: 100}}     className="flex  max-w-4xl mb-10 mx-auto justify-center flex-row gap-2 ">
                     <h1 className="font-space text-[#221A16] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">About</h1>
                     <h1 className="font-spacee text-[#635F40] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Me</h1>
-                </div>
+                </motion.div>
 
                 {/* contains paragraph text */}
-                <div>
+                <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1.1}} transition={{duration: 1.5, type: "spring", stiffness: 100}}>
                     <p className="text-[#55433C] text-[clamp(1rem,1vw+0.5rem,1.5rem)] max-w-4xl mx-auto text-center">
                         I'm a multidisciplinary developer with a passion for creating tactile, organic digital spaces. I
                         believe in a "warm-cream-first" approach to interfaces—eschewing cold tech aesthetics for
                         something more human, approachable, and grounded. My process bridges the gap between
                         sophisticated design systems and robust technical implementation.
                     </p>
-                </div>
+                </motion.div>
 
             </div>
 

@@ -4,6 +4,7 @@ import { FaWhatsapp } from "react-icons/fa";
 import { WhatsappContact } from "../components/links/WhatsappContact";
 import { GmailContact } from "../components/links/GmailContact";
 import { useForm, } from "react-hook-form"
+import { motion } from "motion/react"
 export const ContactMe = () => {
     const {
         register,
@@ -36,10 +37,10 @@ export const ContactMe = () => {
     return (
         <section id="contact-me" className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
 
-            <div className="flex mb-10 max-w-4xl">
+            <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1.1}} transition={{duration: 1.5, type: "spring", stiffness: 100}}  className="flex mb-10 max-w-4xl">
                 <h1 className="font-space text-[#221A16] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Contact</h1>
-                <h1 className="font-space text-[#635F40] text-[72px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Me</h1>
-            </div>
+                {/* <h1 className="font-space text-[#635F40] text-[60px] text-[clamp(2rem, 4vw+1rem,3.75rem)] font-bold">Me</h1> */}
+            </motion.div>
 
             <div className="flex flex-col md:flex-row gap-10 items-center">
 
@@ -59,11 +60,11 @@ export const ContactMe = () => {
 
                 {/* contact area */}
                 <div className="flex w-[90%] space-y-4 flex-col gap-10">
-                    <div>
+                    <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1.1}} transition={{duration: 1.5, type: "spring", stiffness: 100}}>
                         <p className="text-[#55433C]">
                             <span className="font-extrabold">Looking for a Frontend developer?</span> Whether you need a responsive website, a React application, or an API integration, I'd be happy tp discuss your project
                         </p>
-                    </div>
+                    </motion.div>
 
                     {/* gmail contact */}
                     <div className="flex flex-row items-center">

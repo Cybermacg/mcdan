@@ -2,14 +2,15 @@ import { FaCode } from "react-icons/fa";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import image from "../assets/image1.png";
 import image2 from "../assets/project2.png";
+import { motion } from "motion/react";
 
 export const RecentWork = () => {
     return(
         <section id="experience" className="w-full  min-h-screen flex flex-col items-center space-y-20 justify-center">
-            <div className="flex mb-10 max-w-4xl">
+            <motion.div initial={{opacity: 0, scale: 0}} whileInView={{opacity: 1, scale: 1.1}} transition={{duration: 1.5, type: "spring", stiffness: 100}}  className="flex mb-10 max-w-4xl">
                  <h1 className="font-space text-[#221A16] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">Pro</h1>
                  <h1 className="font-space text-[#635F40] text-[65px] text-[clamp(2rem, 4vw+1rem,3.2rem)] font-bold">jects</h1>
-            </div>
+            </motion.div>
 
 
             <div className="w-[80%] mx-auto flex flex-col lg:max-w-384">

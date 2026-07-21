@@ -4,7 +4,7 @@ import { TwitterContact } from "./links/Twitter"
 
 export const Footer = () => {
     return (
-        <footer className="w-full flex border-t border-gray-200 items-center justify-center bg-[#FFF8F6] ">
+        <footer className="w-full mt-10 flex border-t border-gray-200 items-center justify-center bg-[#FFF8F6] ">
 
             <div className="flex w-[80%] m-5 flex-col lg:flex-row lg:justify-between gap-5 items-center max-w-384">
                 <div>
